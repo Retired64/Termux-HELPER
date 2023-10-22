@@ -1,4 +1,4 @@
-Para permitir al usuario seleccionar un editor antes de abrir el archivo automáticamente, puedes hacer uso de un menú de selección adicional. Aquí tienes el código actualizado que solicita al usuario el editor preferido antes de abrir el archivo:
+#Para permitir al usuario seleccionar un editor antes de abrir el archivo automáticamente, puedes hacer uso de un menú de selección adicional. Aquí tienes el código actualizado que solicita al usuario el editor preferido antes de abrir el archivo:
 
 ```python
 import os
