@@ -64,4 +64,94 @@ Esto generará un archivo binario con el nombre `saludar.sh.x` que es la versió
 
 El binario resultante estará ofuscado y será más difícil de leer, pero ten en cuenta que no es una encriptación fuerte y aún se puede revertir por alguien con suficiente conocimiento. Esta técnica proporciona una capa de protección básica, pero no es adecuada para proteger información altamente confidencial.
 
+La elección de los "mejores" lenguajes de programación depende en gran medida del contexto y del uso específico que tenga en mente. Sin embargo, aquí tienes una lista de algunos de los lenguajes de programación más populares en la actualidad, junto con ejemplos de código simples:
 
+1. **Python:**
+   - Ejemplo de código en Python (un programa que imprime "Hola, mundo"):
+
+   ```python
+   print("Hola, mundo")
+   ```
+
+2. **JavaScript:**
+   - Ejemplo de código en JavaScript (un programa que muestra una alerta en un navegador web):
+
+   ```javascript
+   alert("Hola, mundo");
+   ```
+
+3. **Java:**
+   - Ejemplo de código en Java (un programa que imprime "Hola, mundo"):
+
+   ```java
+   public class HolaMundo {
+       public static void main(String[] args) {
+           System.out.println("Hola, mundo");
+       }
+   }
+   ```
+
+4. **C++:**
+   - Ejemplo de código en C++ (un programa que imprime "Hola, mundo"):
+
+   ```cpp
+   #include <iostream>
+   
+   int main() {
+       std::cout << "Hola, mundo" << std::endl;
+       return 0;
+   }
+   ```
+
+5. **C#:**
+   - Ejemplo de código en C# (un programa que imprime "Hola, mundo"):
+
+   ```csharp
+   using System;
+
+   class Program {
+       static void Main() {
+           Console.WriteLine("Hola, mundo");
+       }
+   }
+   ```
+
+6. **Ruby:**
+   - Ejemplo de código en Ruby (un programa que imprime "Hola, mundo"):
+
+   ```ruby
+   puts "Hola, mundo"
+   ```
+
+7. **PHP:**
+   - Ejemplo de código en PHP (un programa que imprime "Hola, mundo"):
+
+   ```php
+   <?php
+   echo "Hola, mundo";
+   ?>
+   ```
+
+8. **Swift:**
+   - Ejemplo de código en Swift (un programa que imprime "Hola, mundo"):
+
+   ```swift
+   import Foundation
+
+   print("Hola, mundo")
+   ```
+
+9. **Go (Golang):**
+   - Ejemplo de código en Go (un programa que imprime "Hola, mundo"):
+
+   ```go
+   package main
+
+   import "fmt"
+
+   func main() {
+       fmt.Println("Hola, mundo")
+   }
+   ```
+
+Estos son solo ejemplos muy simples para cada lenguaje. Cada uno de estos lenguajes tiene sus propias características y se utiliza en diferentes contextos, desde desarrollo web hasta aplicaciones móviles y aprendizaje automático, entre otros. La elección del lenguaje de programación depende de tus necesidades y preferencias específicas.
