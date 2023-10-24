@@ -1,4 +1,4 @@
-Claro, aquí tienes una guía paso a paso para que el usuario entienda cómo usar `input` en Python y cómo agregar color al texto y al banner utilizando la biblioteca `colorama` en un script:
+ cómo usar `input` en Python y cómo agregar color al texto y al banner utilizando la biblioteca `colorama` en un script:
 
 **Paso 1: Instala colorama**
 Si aún no has instalado `colorama`, asegúrate de hacerlo utilizando `pip`:
