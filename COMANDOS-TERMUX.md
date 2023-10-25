@@ -53,7 +53,7 @@ ejemplo ` rm -rf Tu-Carpeta`
 ```
 termux-setup-storage
 ```
-* Fundamental para acceder al Almacenamiento interno `Dar Permitir`desoues de ingresar el comando
+* Fundamental para acceder al Almacenamiento interno `Dar Permitir`despues de ingresar el comando
 ```
 cd /storage/emulated/0/
 ```
@@ -76,7 +76,7 @@ para realizar cambios de nombres a carpetas o archivos ya generados en termux pu
 ```
 mv tuarchivo.lua Elarchivo.lua
 ```
-Esto cambiara el nombre de tu archivo `tuarchivo.lua` por el nuevo nombre que enneste ejemplo es `Elarchivo.lua`
+Esto cambiara el nombre de tu archivo `tuarchivo.lua` por el nuevo nombre que en este ejemplo es `Elarchivo.lua`
 
 ### Actualizar Termux
 ```
