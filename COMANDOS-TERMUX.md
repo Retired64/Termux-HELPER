@@ -11,7 +11,7 @@ ________________________________________________________________________
 cd Tu-Carpeta
 ```
 ^<= Este Comando te permite entrar a las carpetas dentro de termux
-por ejemplo ` cd Tu-Carpeta` entraras a la carpeta : Reemplazs `Tu-Caroeta` por una que tengas en tu termux
+por ejemplo ` cd Tu-Carpeta` entraras a la carpeta : Reemplaza `Tu-Caroeta` por una que tengas en tu termux
 
 ### ¿Como saber a que carpeta entrar ?
 
@@ -37,13 +37,13 @@ cd ..
 ```
 rm
 ```
-con `rm` mas el nomnre del archivo por ejemplo `rm Tu_archivo.lua` o cualquier archivo .. se eliminara
+con `rm` mas el nombre del archivo por ejemplo `rm Tu_archivo.lua` o cualquier archivo .. se eliminara
 
 ```
 rm -rf 
 ```
 ### Eliminar Carpetas
-con `rm -rf` eliminas de forms recursiva una carpeta com sus archivos que tiene dentro
+con `rm -rf` eliminas de forma recursiva una carpeta com sus archivos que tiene dentro
 ejemplo ` rm -rf Tu-Carpeta`
 
 ### acceder al Almacenamiento interno
@@ -55,7 +55,7 @@ termux-setup-storage
 
 ### Actualizar Termux
 ```
-apt uograde 
+apt update
 ```
 ```
 apt upgrade -y
@@ -78,7 +78,7 @@ pkg install Tu-herramienta
 
 ` do you want continue [y/n]?...`
 
-a eso significa que si queremls continuar con la instalacion 
+a eso significa que si queremos continuar con la instalacion 
 responderemos con [ `y` ] En caso de querer continuar
 que significa Yes, en cambio [`n`] significa No, 
 
@@ -87,14 +87,14 @@ que significa Yes, en cambio [`n`] significa No,
 ```
 cp
 ```
-* cp  te permite copiar archivos a otro lugat deseado por ejemplo `cp Tu_archivo.lua /sdcard/` Esto llevara tu archivo a tu memoria interna donde despues oodras verlo desde tu administrador de archivos 
+* cp  te permite copiar archivos a otro lugar deseado por ejemplo `cp Tu_archivo.lua /sdcard/` Esto llevara tu archivo a tu memoria interna donde despues podrás verlo desde tu administrador de archivos 
 ```
 cp -r
 ```
-* cp -r  Te permite copiar carpetas de manera recursiva por ejemplo ` cp -r Tu-Carpeta /sdcard/`Esto llevara tu carpeta a tu Almacenamiento interno Donde despues podrss verla desde tu administrador de archivos
+* cp -r  Te permite copiar carpetas de manera recursiva por ejemplo ` cp -r Tu-Carpeta /sdcard/`Esto llevara tu carpeta a tu Almacenamiento interno Donde despues podrás verla desde tu administrador de archivos
 
 ## AVISO
-### ES IMPORTANTE LEER AUNQUE ESTE EN INGLES POSIBLES ERRORED QUE COMETAS EM TERMUX YA QUE EL MISMO TE DS LAS SOLUCIONES, SI NO SABES INGLES COPIA EL TEXTO Y PEGALO EN GOOGLE TRADUCTOR PARA ENTENDER Y RECORDAR QUE TODOS LOS COMSNDOS EJECUTADOS EN TERMUX DE ESCRIBEM `EN INGLES ` PARA SU CORRECTO FUNCIONAMIENTO LEER LRTRITAS BLANCAS DE TERMUX AYUDARA A TU MEJOR DESEMPEÑO
+### ES IMPORTANTE LEER AUNQUE ESTE EN INGLES POSIBLES ERRORES QUE COMETAS EN TERMUX YA QUE EL MISMO TERMUX TE DA LAS SOLUCIONES, SI NO SABES INGLES COPIA EL TEXTO Y PEGALO EN GOOGLE TRADUCTOR PARA ENTENDER. RECUERDA QUE TODOS LOS COMANDOS EJECUTADOS EN TERMUX SE ESCRIBEN `EN INGLES` PARA SU CORRECTO FUNCIONAMIENTO LEER LETRITAS BLANCAS DE TERMUX AYUDARA A TU MEJOR DESEMPEÑO
 
 
 
