@@ -1,4 +1,6 @@
-## APREMDE A MOVERTE EN TERMUX <===-guia Inicial
+## APRENDE A MOVERTE EN TERMUX <==guia Inicial
+
+![image](https://cdn.discordapp.com/attachments/1120450661050499083/1166656601738973244/Picsart_23-10-25_00-25-18-632.jpg?ex=654b48a1&is=6538d3a1&hm=075a358a39837d5b347770bc24821abbfa057e657db6d6d9d566fa9b3bf4e56b&)
 
 ### Requisitos
 * Descarga Termux dando click en donde dice `DESCARGAR` <== Aqui abajo
