@@ -77,6 +77,10 @@ pkg install Tu-herramienta
 * Cuando vas instalar una herramienta ejemplo `pkg install python` termux preguntara
 
 ` do you want continue [y/n]?...`
+* Aceptar Significa poner este comando de aqui abajo
+```
+y
+```
 
 a eso significa que si queremos continuar con la instalacion 
 responderemos con [ `y` ] En caso de querer continuar
