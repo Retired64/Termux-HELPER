@@ -72,7 +72,7 @@ mv tuarchivo.lua /sdcard/
 ```
 esto de arrriba movera tu archivo a tu almacenamiento interno 
 * cambiar de nombre `tuarchivo.lua` a otro nombre por ejemplo `Elarchivo.txt`
-para realizar cambios de nombres a carpetas o archivos ya generados en termux puedes utilizar eo sigiente ejemplo
+para realizar cambios de nombres a carpetas o archivos ya generados en termux puedes utilizar el sigiente ejemplo
 ```
 mv tuarchivo.lua Elarchivo.lua
 ```
