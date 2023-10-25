@@ -13,7 +13,7 @@ ________________________________________________________________________
 cd Tu-Carpeta
 ```
 ^<= Este Comando te permite entrar a las carpetas dentro de termux
-por ejemplo ` cd Tu-Carpeta` entraras a la carpeta : Reemplaza `Tu-Caroeta` por una que tengas en tu termux
+por ejemplo ` cd Tu-Carpeta` entraras a la carpeta : Reemplaza `Tu-Carpeta` por una que tengas en tu termux
 
 ### ¿Como saber a que carpeta entrar ?
 
@@ -45,7 +45,7 @@ con `rm` mas el nombre del archivo por ejemplo `rm Tu_archivo.lua` o cualquier a
 rm -rf 
 ```
 ### Eliminar Carpetas
-con `rm -rf` eliminas de forma recursiva una carpeta com sus archivos que tiene dentro
+con `rm -rf` eliminas de forma recursiva una carpeta con sus archivos que tiene dentro
 ejemplo ` rm -rf Tu-Carpeta`
 
 ### acceder al Almacenamiento interno
@@ -54,6 +54,29 @@ ejemplo ` rm -rf Tu-Carpeta`
 termux-setup-storage
 ```
 * Fundamental para acceder al Almacenamiento interno `Dar Permitir`desoues de ingresar el comando
+```
+cd /storage/emulated/0/
+```
+Con este comando de arriba Entraras a tu almacenamiento interno del dispositivo una vez hayas dado permisos 
+a igual manera con este comando a continuacion es lo mismo que el de arriba
+```
+cd /sdcard/
+```
+* Ahora recordar `ls` para ver que carpetas tienes en tu dispositivo para continuar entrando si asi lo deseas 
+
+### MOVER ARCHIVOS SIN COPIAR
+* el comando `mv` te permite 2 funciones una de ellas es mover archivos de un lugar a otro de una carpeta a otra por ejemplo
+estando en termux.
+```
+mv tuarchivo.lua /sdcard/
+```
+esto de arrriba movera tu archivo a tu almacenamiento interno 
+* cambiar de nombre `tuarchivo.lua` a otro nombre por ejemplo `Elarchivo.txt`
+para realizar cambios de nombres a carpetas o archivos ya generados en termux puedes utilizar eo sigiente ejemplo
+```
+mv tuarchivo.lua Elarchivo.lua
+```
+Esto cambiara el nombre de tu archivo `tuarchivo.lua` por el nuevo nombre que enneste ejemplo es `Elarchivo.lua`
 
 ### Actualizar Termux
 ```
