@@ -34,7 +34,7 @@ ________________________________________________________________________________
 ### model.inc (PARTES, DEL CUERPO)
 
 * Existen distintas partes de color para agregar y se definen como:
-`SKIN, GLOVES, HAIR, PANTS, SHOES,`
+`SKIN, GLOVES, HAIR, PANTS, SHOES, CAP,`
 ________________________________________________________________________________________________________
 * modificaremos la parte donde se encuentra este codigo
 Reemplazando esto:
