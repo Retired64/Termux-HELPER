@@ -37,11 +37,11 @@ ________________________________________________________________________________
 `SKIN, GLOVES, HAIR, PANTS, SHOES,`
 ________________________________________________________________________________________________________
 * modificaremos la parte donde se encuentra este codigo
-`Reemplazando esto:
+Reemplazando esto:
 `gsSPSetLights1`
 
 Por esto:
-`gsSPCopyLightsPlayerPart`(LA_PARTE),`
+`gsSPCopyLightsPlayerPart`(LA_PARTE),
 ### Ejemolo a continuacion:
 ![image](https://cdn.discordapp.com/attachments/1120450661050499083/1167354349673005066/Screenshot_20231026-234743_QuickEdit2.png?ex=654dd275&is=653b5d75&hm=361a8d658a80c73c2c33852174702014b03b9a1b2ae1e5010b805515065c47cb&)
 ### Ejemplo No.2
