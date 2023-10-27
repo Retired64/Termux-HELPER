@@ -42,7 +42,7 @@ Reemplazando esto:
 
 Por esto:
 `gsSPCopyLightsPlayerPart`(LA_PARTE),
-### Ejemolo a continuacion:
+### Ejemplo a continuacion:
 ![image](https://cdn.discordapp.com/attachments/1120450661050499083/1167354349673005066/Screenshot_20231026-234743_QuickEdit2.png?ex=654dd275&is=653b5d75&hm=361a8d658a80c73c2c33852174702014b03b9a1b2ae1e5010b805515065c47cb&)
 ### Ejemplo No.2
 ![image](https://cdn.discordapp.com/attachments/1120450661050499083/1167354367519760465/Screenshot_20231026-234750_QuickEdit2.png?ex=654dd279&is=653b5d79&hm=7e100dc419aaa8dc97b22444eda843923ca9b3e1def52d1c2a273318e57cef8b&)
