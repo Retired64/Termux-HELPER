@@ -1,8 +1,4 @@
-# You can practice with this model not recolor
-you need put files in the current directory example
-`tool.py in the same direvtory with file `model.inc`
-and run tool python and insert name file
-`
+ 
 # Puedes practicar con este modelo que no es recolor 
 necesitaras poner tu herramienta python en el mismo directorio
 que el archivo a realizar recolor ejemplo
