@@ -112,3 +112,100 @@ print("Factorial de 5:", resultado)
 - Llamamos a la función con `factorial(5)` para calcular el factorial de 5 y lo almacenamos en `resultado`.
 
 Estos ejemplos muestran diferentes formas de utilizar `def` para definir funciones en Python, desde funciones simples sin valor de retorno hasta funciones con argumentos y valor de retorno, e incluso funciones recursivas.
+### Nivel Medio
+aquí tienes ejemplos de funciones interactivas de nivel medio que interactúan con el usuario:
+
+**Ejemplo 7: Calculadora simple**
+
+```python
+def calculadora():
+    print("Selecciona una operación:")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicación")
+    print("4. División")
+    
+    opcion = input("Ingresa el número de la operación deseada: ")
+
+    num1 = float(input("Ingresa el primer número: "))
+    num2 = float(input("Ingresa el segundo número: "))
+
+    if opcion == "1":
+        resultado = num1 + num2
+    elif opcion == "2":
+        resultado = num1 - num2
+    elif opcion == "3":
+        resultado = num1 * num2
+    elif opcion == "4":
+        if num2 != 0:
+            resultado = num1 / num2
+        else:
+            resultado = "Error: División por cero"
+    else:
+        resultado = "Opción no válida"
+
+    print("Resultado:", resultado)
+
+# Llamamos a la función para realizar cálculos
+calculadora()
+```
+
+- En este ejemplo, la función `calculadora` interactúa con el usuario para realizar operaciones matemáticas básicas. La función solicita al usuario que seleccione una operación (suma, resta, multiplicación o división), ingrese dos números y luego realiza la operación deseada.
+
+**Ejemplo 8: Conversor de temperatura**
+
+```python
+def conversor_temperatura():
+    print("Selecciona una opción:")
+    print("1. Convertir de Celsius a Fahrenheit")
+    print("2. Convertir de Fahrenheit a Celsius")
+    
+    opcion = input("Ingresa el número de la opción: ")
+    temperatura = float(input("Ingresa la temperatura: "))
+
+    if opcion == "1":
+        resultado = (temperatura * 9/5) + 32
+    elif opcion == "2":
+        resultado = (temperatura - 32) * 5/9
+    else:
+        resultado = "Opción no válida"
+
+    print("Resultado:", resultado)
+
+# Llamamos a la función para realizar conversiones de temperatura
+conversor_temperatura()
+```
+
+- En este caso, la función `conversor_temperatura` permite al usuario convertir temperaturas entre Celsius y Fahrenheit.
+
+**Ejemplo 9: Juego adivina el número**
+
+```python
+import random
+
+def juego_adivina_numero():
+    numero_secreto = random.randint(1, 100)
+    intentos = 0
+
+    print("Bienvenido al juego Adivina el número.")
+    print("Estoy pensando en un número entre 1 y 100. ¡Adivina!")
+
+    while True:
+        intento = int(input("Ingresa tu suposición: "))
+        intentos += 1
+
+        if intento < numero_secreto:
+            print("Demasiado bajo. Intenta de nuevo.")
+        elif intento > numero_secreto:
+            print("Demasiado alto. Intenta de nuevo.")
+        else:
+            print(f"Felicitaciones. ¡Adivinaste el número en {intentos} intentos!")
+            break
+
+# Llamamos a la función para jugar al juego Adivina el número
+juego_adivina_numero()
+```
+
+- Este ejemplo implementa un juego interactivo en el que el usuario intenta adivinar un número secreto generado al azar por la computadora.
+
+Estas funciones interactivas permiten a los usuarios realizar cálculos, conversiones o participar en juegos mientras interactúan con el programa.
