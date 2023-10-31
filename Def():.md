@@ -286,3 +286,95 @@ print("Contraseña generada:", contrasena_generada)
 - Esta función `generar_contrasena` crea contraseñas seguras de la longitud especificada por el usuario, combinando letras mayúsculas y minúsculas, dígitos y caracteres especiales.
 
 Estas funciones avanzadas permiten al usuario realizar tareas más complejas, como administrar tareas, calcular hipotecas y generar contraseñas seguras, mientras interactúan con el programa.
+
+### Extras
+
+Las funciones de nivel profesional interactivo pueden involucrar tareas más complejas o procesamiento de datos. Aquí tienes tres ejemplos de funciones avanzadas que interactúan con el usuario:
+
+**Ejemplo 13: Buscador de archivos en un directorio**
+
+```python
+import os
+
+def buscar_archivos():
+    ruta = input("Ingresa la ruta del directorio para buscar archivos: ")
+    extension = input("Ingresa la extensión de archivo a buscar (por ejemplo, '.txt'): ")
+
+    archivos_encontrados = []
+
+    for directorio_raiz, directorios, archivos in os.walk(ruta):
+        for archivo in archivos:
+            if archivo.endswith(extension):
+                archivos_encontrados.append(os.path.join(directorio_raiz, archivo))
+
+    print("Archivos encontrados:")
+    for archivo_encontrado in archivos_encontrados:
+        print(archivo_encontrado)
+
+# Llamamos a la función para buscar archivos en un directorio
+buscar_archivos()
+```
+
+- Esta función permite al usuario especificar un directorio y una extensión de archivo, luego busca y muestra una lista de archivos en ese directorio que coinciden con la extensión especificada.
+
+**Ejemplo 14: Análisis de datos con pandas**
+
+```python
+import pandas as pd
+
+def analizar_datos_csv():
+    archivo_csv = input("Ingresa la ruta del archivo CSV a analizar: ")
+
+    try:
+        df = pd.read_csv(archivo_csv)
+        estadisticas = df.describe()
+        print(estadisticas)
+    except FileNotFoundError:
+        print("Archivo no encontrado.")
+    except Exception as e:
+        print(f"Ocurrió un error: {e}")
+
+# Llamamos a la función para analizar un archivo CSV con pandas
+analizar_datos_csv()
+```
+
+- En este ejemplo, la función permite al usuario cargar un archivo CSV utilizando la biblioteca Pandas y muestra estadísticas descriptivas del conjunto de datos.
+
+**Ejemplo 15: Envío de correos electrónicos**
+
+```python
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+def enviar_correo():
+    remitente = input("Correo del remitente: ")
+    contraseña = input("Contraseña del remitente: ")
+    destinatario = input("Correo del destinatario: ")
+    asunto = input("Asunto del correo: ")
+    mensaje = input("Mensaje: ")
+
+    try:
+        servidor_smtp = smtplib.SMTP("smtp.servidor.com", 587)  # Reemplaza con el servidor SMTP correcto
+        servidor_smtp.starttls()
+        servidor_smtp.login(remitente, contraseña)
+
+        mensaje_correo = MIMEMultipart()
+        mensaje_correo["From"] = remitente
+        mensaje_correo["To"] = destinatario
+        mensaje_correo["Subject"] = asunto
+        mensaje_correo.attach(MIMEText(mensaje, "plain"))
+
+        servidor_smtp.sendmail(remitente, destinatario, mensaje_correo.as_string())
+        servidor_smtp.quit()
+        print("Correo enviado con éxito.")
+    except Exception as e:
+        print(f"Error al enviar el correo: {e}")
+
+# Llamamos a la función para enviar un correo electrónico
+enviar_correo()
+```
+
+- Este ejemplo permite al usuario enviar correos electrónicos utilizando la biblioteca `smtplib` de Python.
+
+Estas funciones avanzadas interactúan con el usuario y realizan tareas más complejas, como buscar archivos, analizar datos y enviar correos electrónicos, lo que puede ser útil en aplicaciones profesionales y empresariales.
