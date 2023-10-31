@@ -209,3 +209,80 @@ juego_adivina_numero()
 - Este ejemplo implementa un juego interactivo en el que el usuario intenta adivinar un número secreto generado al azar por la computadora.
 
 Estas funciones interactivas permiten a los usuarios realizar cálculos, conversiones o participar en juegos mientras interactúan con el programa.
+
+### Avanzado
+Aquí tienes ejemplos de funciones interactivas de nivel avanzado que permiten al usuario realizar tareas más complejas:
+
+**Ejemplo 10: Administrador de tareas**
+
+```python
+def administrador_tareas():
+    tareas = []
+    
+    while True:
+        print("Opciones:")
+        print("1. Agregar tarea")
+        print("2. Ver tareas")
+        print("3. Salir")
+        
+        opcion = input("Selecciona una opción: ")
+
+        if opcion == "1":
+            tarea = input("Ingresa la tarea: ")
+            tareas.append(tarea)
+        elif opcion == "2":
+            print("Tareas:")
+            for i, tarea in enumerate(tareas, start=1):
+                print(f"{i}. {tarea}")
+        elif opcion == "3":
+            break
+        else:
+            print("Opción no válida. Inténtalo de nuevo.")
+
+# Llamamos a la función para administrar tareas
+administrador_tareas()
+```
+
+- En este ejemplo, la función `administrador_tareas` permite al usuario agregar, ver y gestionar tareas en una lista interactivamente.
+
+**Ejemplo 11: Calculadora de hipotecas**
+
+```python
+def calculadora_hipoteca():
+    principal = float(input("Monto del préstamo: $"))
+    tasa_interes = float(input("Tasa de interés anual (%): "))
+    plazo_anios = int(input("Plazo del préstamo (años): "))
+
+    tasa_interes_mensual = (tasa_interes / 100) / 12
+    plazo_meses = plazo_anios * 12
+
+    cuota_mensual = (principal * tasa_interes_mensual) / (1 - (1 + tasa_interes_mensual) ** -plazo_meses)
+
+    print(f"Cuota mensual: ${cuota_mensual:.2f}")
+
+# Llamamos a la función para calcular una hipoteca
+calculadora_hipoteca()
+```
+
+- En este caso, la función `calculadora_hipoteca` permite al usuario calcular la cuota mensual de una hipoteca en función del monto del préstamo, la tasa de interés y el plazo del préstamo.
+
+**Ejemplo 12: Generador de contraseñas seguras**
+
+```python
+import random
+import string
+
+def generar_contrasena(longitud):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    contrasena = ''.join(random.choice(caracteres) for _ in range(longitud))
+    return contrasena
+
+longitud_contrasena = int(input("Longitud de la contraseña: "))
+contrasena_generada = generar_contrasena(longitud_contrasena)
+
+print("Contraseña generada:", contrasena_generada)
+```
+
+- Esta función `generar_contrasena` crea contraseñas seguras de la longitud especificada por el usuario, combinando letras mayúsculas y minúsculas, dígitos y caracteres especiales.
+
+Estas funciones avanzadas permiten al usuario realizar tareas más complejas, como administrar tareas, calcular hipotecas y generar contraseñas seguras, mientras interactúan con el programa.
