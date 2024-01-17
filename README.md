@@ -9,7 +9,7 @@ Sí, es posible crear herramientas personalizadas para Termux. Termux es una apl
 4. Escribe el siguiente código en el archivo:
 
 ```bash
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 # Este es un script simple que saluda al usuario
 
 echo "Hola, ¿cómo estás?"
