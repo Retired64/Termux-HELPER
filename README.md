@@ -49,6 +49,8 @@ Para encriptar tu script Bash `saludar.sh` en un archivo binario, puedes usar un
 
 ```bash
 pkg install shc
+
+pkg install binutils
 ```
 
 Luego, puedes compilar tu script `saludar.sh` de la siguiente manera:
