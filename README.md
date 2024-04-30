@@ -2,7 +2,7 @@
 Sí, es posible crear herramientas personalizadas para Termux. Termux es una aplicación de terminal para Android que permite ejecutar comandos y scripts en un entorno similar al de una terminal de Linux. Puedes crear herramientas personalizadas en lenguajes como Bash, Python, Ruby, etc. Aquí tienes un ejemplo simple en Bash para crear una herramienta que salude al usuario:
 
 1. Abre Termux en tu dispositivo.
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107657.40710431221!2d-117.26065745664059!3d32.5182947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94bad0c064fa3%3A0x236728808fbfcd9e!2sPeluqueria%20y%20Estetica%20EbeyB!5e0!3m2!1ses-419!2smx!4v1714437527795!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 3. Crea un archivo Bash para tu herramienta con el comando `nano`. Por ejemplo, puedes usar `nano saludar.sh`.
 
